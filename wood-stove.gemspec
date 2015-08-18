@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'stove/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'stove'
+  spec.name          = 'wood-stove'
   spec.version       = Stove::VERSION
-  spec.authors       = ['Seth Vargo']
-  spec.email         = ['sethvargo@gmail.com']
-  spec.description   = "A utility for releasing Chef community cookbooks"
+  spec.authors       = ['Arthur Maltson']
+  spec.email         = ['arthur@maltson.com']
+  spec.description   = "Fork of stove gem"
   spec.summary       = "A command-line utility for releasing Chef community cookbooks"
-  spec.homepage      = 'https://github.com/sethvargo/stove'
+  spec.homepage      = 'https://github.com/amaltson/stove'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files`.split($/)
